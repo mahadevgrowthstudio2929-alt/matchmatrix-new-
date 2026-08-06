@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Match Matrix | Official Channel</title>
+
+<!-- Meta Pixel Paste Below This Line -->
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+height:100vh;
+overflow:hidden;
+display:flex;
+justify-content:center;
+align-items:center;
+background:
+radial-gradient(circle at top,#8d1bff 0%,#4b0f7f 35%,#090b3f 100%);
+padding:15px;
+position:relative;
+}
+
+/* Animated Background */
+body::before{
+content:'';
+position:absolute;
+width:500px;
+height:500px;
+background:#ff00ff30;
+filter:blur(120px);
+animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0);}
+50%{transform:translateY(-30px);}
+}
+
+.container{
+width:100%;
+max-width:420px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(20px);
+border:1px solid rgba(255,255,255,0.1);
+border-radius:28px;
+padding:25px;
+text-align:center;
+box-shadow:
+0 0 40px rgba(255,0,255,0.25),
+0 0 80px rgba(0,150,255,0.15);
+position:relative;
+z-index:2;
+animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+.logo-wrap{
+position:relative;
+display:inline-block;
+margin-bottom:15px;
+}
+
+.logo-wrap::before{
+content:'';
+position:absolute;
+inset:-8px;
+border-radius:50%;
+background:linear-gradient(45deg,#00e5ff,#ff00ff);
+z-index:-1;
+animation:spin 5s linear infinite;
+}
+
+.logo{
+width:95px;
+height:95px;
+border-radius:50%;
+object-fit:cover;
+display:block;
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%,100%{transform:scale(1);}
+50%{transform:scale(1.08);}
+}
+
+@keyframes spin{
+100%{transform:rotate(360deg);}
+}
+
+.live{
+display:inline-flex;
+align-items:center;
+gap:8px;
+padding:7px 14px;
+border-radius:30px;
+background:rgba(255,255,255,0.08);
+font-size:12px;
+color:#fff;
+margin-bottom:15px;
+}
+
+.dot{
+width:10px;
+height:10px;
+background:#00ff4c;
+border-radius:50%;
+animation:blink 1s infinite;
+}
+
+@keyframes blink{
+50%{opacity:.3;}
+}
+
+h1{
+color:white;
+font-size:34px;
+font-weight:800;
+margin-bottom:10px;
+}
+
+.tag{
+display:inline-block;
+padding:8px 18px;
+border-radius:30px;
+border:1px solid rgba(255,255,255,.2);
+color:#ffb3ff;
+font-size:12px;
+letter-spacing:2px;
+margin-bottom:20px;
+}
+
+.stats{
+display:flex;
+justify-content:space-between;
+margin-bottom:20px;
+}
+
+.stat h2{
+color:white;
+font-size:30px;
+font-weight:800;
+}
+
+.stat p{
+color:#cfcfcf;
+font-size:11px;
+letter-spacing:1px;
+}
+
+.features{
+text-align:left;
+margin-bottom:22px;
+}
+
+.features div{
+color:white;
+margin:12px 0;
+font-size:14px;
+}
+
+.cta{
+display:block;
+text-decoration:none;
+padding:18px;
+border-radius:18px;
+font-weight:800;
+font-size:18px;
+color:white;
+background:linear-gradient(90deg,#ff00d4,#7d2cff,#00c6ff);
+background-size:300% 300%;
+animation:gradientMove 5s ease infinite;
+box-shadow:0 0 35px rgba(255,0,255,.5);
+transition:.3s;
+}
+
+.cta:hover{
+transform:translateY(-4px) scale(1.02);
+box-shadow:0 0 55px rgba(255,0,255,.8);
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.sub{
+margin-top:14px;
+font-size:12px;
+color:#d7d7d7;
+}
+
+.footer{
+margin-top:18px;
+font-size:11px;
+color:#bdbdbd;
+opacity:.8;
+}
+
+@media(max-height:700px){
+.container{
+padding:18px;
+}
+h1{
+font-size:28px;
+}
+.stat h2{
+font-size:24px;
+}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="logo-wrap">
+<img src="logo.png" alt="Match Matrix" class="logo">
+</div>
+
+<div class="live">
+<span class="dot"></span>
+LIVE ANALYSIS SESSION RUNNING
+</div>
+
+<h1>Match Matrix</h1>
+
+<div class="tag">OFFICIAL CHANNEL</div>
+
+<div class="stats">
+<div class="stat">
+<h2>99%</h2>
+<p>ACCURACY</p>
+</div>
+
+<div class="stat">
+<h2>24/7</h2>
+<p>SUPPORT</p>
+</div>
+</div>
+
+<div class="features">
+<div>✅ Premium Match Analysis & Insights</div>
+<div>✅ High Accuracy Session Reports</div>
+<div>✅ Verified Cricket Trading Strategies</div>
+</div>
+
+<a class="cta" href="https://t.me/+DYkNbW-hA99lMjc9">
+🚀 UNLOCK TODAY'S PREMIUM EDGE
+</a>
+
+<div class="sub">
+⚡ Limited Access Window Active
+</div>
+
+<div class="footer">
+Ads Managed By Mahadev Growth Studio
+</div>
+
+</div>
+
+<script>
+setTimeout(function(){
+window.location.href="https://t.me/+DYkNbW-hA99lMjc9";
+},5000);
+</script>
+
+</body>
+</html>
